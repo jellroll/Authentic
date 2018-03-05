@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity
 import com.google.android.gms.maps.GoogleMap
 import kotlinx.android.synthetic.main.activity_main.*
 
-import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.MapFragment
@@ -38,6 +38,7 @@ class MainActivity : FragmentActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val mapFragment = fragmentManager
                 .findFragmentById(R.id.map) as MapFragment
         mapFragment.getMapAsync(this)
