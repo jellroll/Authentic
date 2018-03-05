@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Authentic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="google_maps_key">AIzaSyAVT3FvXK-rLRRTaeXUW8e5eQel4OF4udk</string>
+</resources>
